@@ -282,9 +282,6 @@ def calculate():
         print("Divide to zero it`s not available")
 
 
-calculate()
-
-
 obj1 = Command("hello", say_hello)
 obj2 = Command("time", check_time)
 obj3 = Command("even", check_even)
