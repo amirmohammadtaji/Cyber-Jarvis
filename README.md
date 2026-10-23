@@ -2,72 +2,99 @@
 
 Welcome to Cyber Jarvis!
 
-Cyber Jarvis is a Python-based command-line project that I am building as part of my journey in Computer Engineering and cybersecurity. It combines basic Python programming with useful system information tools and simple interactive commands.
+Cyber Jarvis is a Python-based command-line project that I am developing as part of my journey in Computer Engineering and cybersecurity.
 
-This project is a work in progress, and I plan to improve it as I learn more about Python, Linux, and cybersecurity.
+The project uses an object-oriented command dispatcher to organize different commands and make the program easier to extend. It combines Python fundamentals with basic networking utilities and interactive command-line tools.
+
+This is an educational project that I am building and improving step by step as I learn more about Python, Linux, and cybersecurity.
 
 ## 🚀 Features
 
-- Display basic system information.
-- Retrieve the computer's hostname and local IP address.
-- Display operating system information.
-- Retrieve the device's MAC address.
-- Check network connectivity using a connection test.
-- Check password strength and provide feedback.
-- Validate IPv4 addresses.
-- Validate port numbers.
-- Encode and decode text using a Caesar cipher.
-- Perform basic interactive commands through a command-line menu.
-- Display the current time and perform simple utility tasks.
+- **Command Dispatcher:** Run commands through an interactive terminal menu.
+- **Network Information:** Display the hostname, local IP address, operating system, and MAC address.
+- **Connection Check:** Test connectivity to an external network endpoint.
+- **Password Checker:** Evaluate password characteristics and provide basic strength feedback.
+- **Password Generator:** Generate a random 12-character password.
+- **IP Address Validator:** Check the format and range of IPv4 addresses.
+- **Port Validator:** Validate port numbers and identify selected well-known ports.
+- **Caesar Cipher:** Encrypt and decrypt text using a shift value.
+- **Calculator:** Perform basic arithmetic operations.
+- **Even or Odd Checker:** Determine whether a number is even or odd.
+- **Help Command:** Display the available commands.
 
-## 🛠️ Technologies
+## 🛠️ Technologies and Concepts
 
 - Python 3
-- Python Standard Library
-- Command-Line Interface (CLI)
-- Git and GitHub
+- Object-Oriented Programming (OOP)
+- Classes and objects
+- Functions and dictionaries
+- Loops and conditional statements
+- Exception handling
+- Python standard library
+- Basic networking with `socket`
+- String manipulation and character encoding
 
 ## 📋 Requirements
 
-- Python 3 installed on your system.
-- A terminal or command prompt.
+- Python 3
+- A terminal or command prompt
 
-Some network-related features require an active network connection.
+An internet connection is required for the connection-check command to succeed.
 
 ## ▶️ How to Run
 
 1. Clone or download this repository.
 2. Open a terminal in the project directory.
-3. Run the Python file:
+3. Run the program:
 
 ```bash
-python main.py
+python cyber-jarvis.py
 ```
 
-Replace `main.py` with the actual filename of the script if it is different.
+## 💻 Available Commands
+
+| Command | Description |
+|---|---|
+| `hello` | Display a greeting |
+| `time` | Display a placeholder time message |
+| `even` | Check whether a number is even or odd |
+| `password` | Check password characteristics |
+| `generat password` | Generate a random password |
+| `port` | Validate a port number |
+| `ip address` | Validate an IPv4 address |
+| `caesar` | Encrypt or decrypt text |
+| `network info` | Display basic system and network information |
+| `check connection` | Test network connectivity |
+| `calculate` | Perform basic calculations |
+| `help` | List available commands |
+| `exit` | Quit the program |
 
 ## 🎯 Learning Goals
 
-- Improve Python programming skills.
-- Practice working with modules and functions.
-- Learn more about networking concepts.
-- Build practical command-line applications.
-- Develop a foundation for future cybersecurity projects.
+- Improve my Python programming skills.
+- Practice object-oriented programming.
+- Learn how to organize commands using classes and dictionaries.
+- Develop a better understanding of networking fundamentals.
+- Build practical projects related to cybersecurity.
+- Improve code readability, validation, and error handling.
 
 ## 🔮 Future Improvements
 
-- Organize the code into separate modules.
-- Add error handling and input validation.
-- Write unit tests for the main functions.
+- Improve input validation and error handling.
+- Fix minor spelling and naming inconsistencies.
+- Replace the placeholder time command with an actual clock.
+- Add unit tests for important functions.
+- Organize the project into separate modules as it grows.
 - Improve the command-line interface.
-- Add more networking utilities as I learn about them.
-- Document new features and improvements.
+- Add more networking utilities as I learn the underlying concepts.
 
 ## 📈 Project Status
 
-Cyber Jarvis is an educational project that I am developing and improving step by step.
+**Version:** 0.1 — Prototype
 
-This project is intended for learning and basic system utilities. It is not a replacement for professional security tools.
+Cyber Jarvis is an ongoing learning project. The current version focuses on Python fundamentals, command dispatching, and basic system and networking utilities.
+
+It is intended for educational use and is not a replacement for professional cybersecurity tools.
 
 ---
 
