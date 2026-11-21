@@ -32,7 +32,7 @@
 import socket
 import platform
 import uuid
-simport string
+import string
 import secret
 
 
