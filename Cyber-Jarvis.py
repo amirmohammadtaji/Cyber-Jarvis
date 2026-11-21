@@ -32,8 +32,8 @@
 import socket
 import platform
 import uuid
-import secrets
-import string
+simport string
+import secret
 
 
 class Command:
@@ -123,7 +123,7 @@ def check_password():
     if len(Password) >= 8:
         print("len is good")
     elif len(Password) < 8:
-        print("need more character")
+        print("Need more character")
 
     has_number = False
 
@@ -134,7 +134,7 @@ def check_password():
     if has_number:
         print("Password has number")
     else:
-        print("need at least one number")
+        print("Need at least one number")
 
     has_upper = False
 
@@ -143,7 +143,7 @@ def check_password():
             has_upper = True
 
     if has_upper:
-        print("password has uper")
+        print("Password has uper")
     else:
         print("Enter uper crakter")
 
