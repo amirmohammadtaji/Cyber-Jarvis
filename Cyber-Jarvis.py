@@ -2,10 +2,10 @@
 # Author: Amir Mohammad Taji
 #
 # Description:
+# New commands can be added without changing the core loop.
+# stores a name and a function, and runs it when called.
 # A terminal-based command dispatcher, the first building
 # block of Cyber Jarvis. Each command is an object that
-# stores a name and a function, and runs it when called.
-# New commands can be added without changing the core loop.
 #
 # Commands:
 # - hello     : greeting
