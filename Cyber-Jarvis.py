@@ -20,12 +20,12 @@
 #
 # Concepts Used:
 # - Object-Oriented Programming (OOP): classes, objects, methods
-# - Functions as values (passing functions without calling them)
-# - Dictionaries
-# - while loop, for loop
-# - if / elif / else
 # - String methods (lower, isdigit, isupper, islower, split)
+# - Functions as values (passing functions without calling them)
+# - while loop, for loop
 # - ord() / chr() and modulo (%)
+# - Dictionaries
+# - if / elif / else 
 # - Type conversion (int)
 # - User input
 # ==========================================
@@ -93,7 +93,7 @@ def generate_password():
     character = string.ascii_letters + string.digits + string.punctuation
 
     while True:
-        password = ""
+        password = " "
 
         for i in range(12):
 
